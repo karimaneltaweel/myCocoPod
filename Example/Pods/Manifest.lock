@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (5.10.1)
+  - MyCocoPod (0.1.0):
+    - Alamofire (~> 5.0)
+    - SwiftyJSON (~> 5.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - MyCocoPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MyCocoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  MyCocoPod: cc792aa04887fc8fc5f3555626a1bc5473942853
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 5faf584e4a7451711d4a7667007c8bf64ab047e2
+
+COCOAPODS: 1.15.2

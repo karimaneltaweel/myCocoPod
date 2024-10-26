@@ -1,5 +1,5 @@
 import XCTest
-import MyCocoPod
+//import MyCocoPod
 
 class Tests: XCTestCase {
     

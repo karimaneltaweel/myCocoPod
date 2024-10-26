@@ -1,0 +1,35 @@
+{
+  "name": "MyCocoPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyCocoapodsLibrary get it nowwwww.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/karimaneltaweel/MyCocoPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "karimaneltaweel": "kariman.hesham@advaeg.com"
+  },
+  "source": {
+    "git": "https://github.com/karimaneltaweel/MyCocoPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyCocoPod/Classes/**/*",
+  "resource_bundles": {
+    "Resourses": [
+      "MyCocoPod/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.0"
+    ],
+    "SwiftyJSON": [
+      "~> 5.0"
+    ]
+  }
+}

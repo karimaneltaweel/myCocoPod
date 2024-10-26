@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WeddingCollectionViewCell" id="gTV-IL-0wX" customClass="WeddingCollectionViewCell" customModule="MyCocoPod" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="181" height="156"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="181" height="156"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ooc-wv-lcj" customClass="DesignableView" customModule="Spring">
+                        <rect key="frame" x="0.0" y="0.0" width="181" height="156"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="E1m-SA-zGr">
+                                <rect key="frame" x="53" y="30" width="75" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ei3-dk-dfU"/>
+                                    <constraint firstAttribute="width" constant="75" id="Pgt-mW-QUC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3o-fA-hjO">
+                                <rect key="frame" x="69.333333333333329" y="107" width="42.333333333333329" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="y3o-fA-hjO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ooc-wv-lcj" secondAttribute="leading" constant="5" id="Ff3-FG-gV4"/>
+                            <constraint firstItem="y3o-fA-hjO" firstAttribute="top" secondItem="E1m-SA-zGr" secondAttribute="bottom" constant="17" id="J4W-FV-NBf"/>
+                            <constraint firstItem="E1m-SA-zGr" firstAttribute="centerX" secondItem="Ooc-wv-lcj" secondAttribute="centerX" id="MmM-ev-gYl"/>
+                            <constraint firstItem="y3o-fA-hjO" firstAttribute="centerX" secondItem="Ooc-wv-lcj" secondAttribute="centerX" id="NkZ-YI-Zqv"/>
+                            <constraint firstItem="E1m-SA-zGr" firstAttribute="top" secondItem="Ooc-wv-lcj" secondAttribute="top" constant="30" id="PDu-PK-eyJ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="y3o-fA-hjO" secondAttribute="trailing" constant="5" id="p0f-of-4AI"/>
+                            <constraint firstAttribute="bottom" secondItem="y3o-fA-hjO" secondAttribute="bottom" constant="5" id="v8g-50-71e"/>
+                            <constraint firstAttribute="bottom" secondItem="y3o-fA-hjO" secondAttribute="bottom" constant="5" id="zrV-A8-4Cq"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Ooc-wv-lcj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ap5-Yh-2eQ"/>
+                <constraint firstItem="Ooc-wv-lcj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bbu-BC-Vqi"/>
+                <constraint firstAttribute="trailing" secondItem="Ooc-wv-lcj" secondAttribute="trailing" id="KWs-TE-OT5"/>
+                <constraint firstAttribute="bottom" secondItem="Ooc-wv-lcj" secondAttribute="bottom" id="rW2-0u-f4Y"/>
+            </constraints>
+            <size key="customSize" width="183" height="132"/>
+            <connections>
+                <outlet property="image" destination="E1m-SA-zGr" id="5Fd-zm-cq0"/>
+                <outlet property="name" destination="y3o-fA-hjO" id="bAL-Tv-Anf"/>
+            </connections>
+            <point key="canvasLocation" x="182.44274809160305" y="48.239436619718312"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="eyes" width="18.666666030883789" height="18.666666030883789"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
